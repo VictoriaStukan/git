@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        body {
+            margin: 0 auto;
+        }
+
+        .wrapper {
+            background-color: aqua;
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .wrapper-line,
+        .wrapper__line--column,
+        .wrapper__double {
+            display: flex;
+        }
+
+        .small-box {
+            background-color: cadetblue;
+            margin: 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="wrapper-line">
+            <div class="small-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, officia commodi. Vel
+                consequatur error incidunt ipsam veritatis autem maxime nostrum!
+            </div>
+            <div class="small-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eligendi veniam
+                excepturi
+                adipisci in molestiae voluptates mollitia consequatur non et!
+            </div>
+            <div class="small-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat perferendis ut
+                voluptate
+                numquam exercitationem velit non, voluptas deleniti vel aut?
+            </div>
+            <div class="small-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quasi
+                assumenda
+                corrupti est tempore vero nemo quas commodi nostrum dolorum!
+            </div>
+        </div>
+        <div class="wrapper__line--column">
+            <div class="small-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quasi
+                assumenda
+                corrupti est tempore vero nemo quas commodi nostrum dolorum!
+            </div>
+            <div class="small-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quasi
+                assumenda
+                corrupti est tempore vero nemo quas commodi nostrum dolorum!
+            </div>
+        </div>
+        <div class="wrapper__single">
+            <div class="small-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quasi
+                assumenda
+                corrupti est tempore vero nemo quas commodi nostrum dolorum!
+            </div>
+        </div>
+        <div class="wrapper__double">
+            <div class="small-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quasi
+                assumenda
+                corrupti est tempore vero nemo quas commodi nostrum dolorum!
+            </div>
+            <div class="small-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quasi
+                assumenda
+                corrupti est tempore vero nemo quas commodi nostrum dolorum!
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
